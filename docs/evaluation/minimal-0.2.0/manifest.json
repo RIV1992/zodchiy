@@ -1,0 +1,57 @@
+{
+  "baseline_commit": "7f8188b194ec7ebcf0874524762cb47bd4a83fcc",
+  "candidate_version": "0.2.0",
+  "date": "2026-09-29",
+  "runs_per_version": 1,
+  "model_configuration": "inherited session configuration; not independently pinned",
+  "inputs": {
+    "navigation/routes.js": "77b422dd46c32939c0439d5d41cc8c1268aa9a9cd18c8eebdb844d120f90dc28",
+    "new-screen/decisions.md": "cbf4c2f487e77f931719530d6e1b244f81759b71c85c18796b45e654e32d4d5a",
+    "new-screen/existing.html": "949304196592ece5007dbe91a4e35f58616c777c7afbaffd0a94415f357883e8",
+    "shared/base/Button.jsx": "b37d1cc28f4c3178bd43dfde1a99d968c578445d6d73c3f6a46235ae25f8604e",
+    "shared/current/Button.jsx": "ec21aa4c5b1d86db8192be8ac7869fc9c2cebe82ca99a2116fcac4722f13940a",
+    "shared/current/FilterForm.jsx": "32de45c6f5f0210af372016044248b86bd845b4b5059975141986ab045720efd",
+    "shared/current/Reservation.jsx": "90d7d12386e601b57f41eef6745f86ecb1d9e255e6d19febd5e64fb4106cd5c8",
+    "shared/current/Settings.jsx": "dabcc976872faeefc5839b0643b7670bf4d1db6f1995a0817a1a88f358b4b6f9",
+    "small-edit/index.html": "8b1342b67c9e061dff67e17d096e8a77fb4aef65244bc70e97b3ad78c83db66b",
+    "tasks.md": "f8a588f716a6055d000edf7ee1f757cc335ab952b1737e3221a220b43e0fb176"
+  },
+  "runs": {
+    "baseline": {
+      "skill_sha256": {
+        "SKILL.md": "1b8840f679c32a6502f7a27b0e9eada9df317c65832dd054b234973dc854a2c6",
+        "agents/openai.yaml": "4354e67ab6e9cb1f2e68040b8d2e009c481abd2e0b010b698fa3c8da628db9c6",
+        "references/explanation.md": "f9eb86eb9a125d887a74bb556e802440144057787afa01698ffeea27214a67df",
+        "references/learning.md": "47dcbb984ab97f8262bb9a153b6f88ad9fdd731e61fbc8529633f0c694a2d473",
+        "references/reading.md": "89cfb1654b870ba4c5ad1694a9cb84eec93fcdf8c4445e0ff88be28cc6868d81",
+        "references/visual-direction.md": "4d5fc2ffa33b6e78024eb53cab6bd754b24a67fbcf03bc043f9886d42edae21a",
+        "references/workspaces.md": "762fbf1ae7421438389c96ab21d10af00a1032a8ec8626fed46433de174ff24d"
+      },
+      "core_words": 659,
+      "response_sha256": "9013af15428d94d1722a4fdac7ba41bf48ecaa6b79249f51a3036af1876b0e4f",
+      "response_words": 936,
+      "changed_inputs": [
+        "small-edit/index.html"
+      ],
+      "exact_typo_replacement": true
+    },
+    "candidate": {
+      "skill_sha256": {
+        "SKILL.md": "d80cb30dd7486b89a29bcb176d0c4076fc374370f5f1f58efedd51b8fea89eb9",
+        "agents/openai.yaml": "4354e67ab6e9cb1f2e68040b8d2e009c481abd2e0b010b698fa3c8da628db9c6",
+        "references/explanation.md": "f9eb86eb9a125d887a74bb556e802440144057787afa01698ffeea27214a67df",
+        "references/learning.md": "a95317618bd670b6b05eac82807942a55765eccbed720af97afdf27db9a9cafc",
+        "references/reading.md": "89cfb1654b870ba4c5ad1694a9cb84eec93fcdf8c4445e0ff88be28cc6868d81",
+        "references/visual-direction.md": "4d5fc2ffa33b6e78024eb53cab6bd754b24a67fbcf03bc043f9886d42edae21a",
+        "references/workspaces.md": "a84a913ffc7c48034814c6c40b7f3318c4adc8a2bdca6e617fa35ec84041376c"
+      },
+      "core_words": 691,
+      "response_sha256": "2415821ce43f85fbf107b1b40cda3570b152c372715edd0a0bd3307c1aa79093",
+      "response_words": 794,
+      "changed_inputs": [
+        "small-edit/index.html"
+      ],
+      "exact_typo_replacement": true
+    }
+  }
+}

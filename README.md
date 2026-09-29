@@ -10,7 +10,7 @@ The name is the Russian word for a master builder or architect. A companion to [
 
 ## Status
 
-**0.1.0 — public baseline.** This version packages an existing design workflow for public use. It removes personal material and reorganizes the supporting notes. It does not claim measured improvements in design quality. Modernization is a separate, later step.
+**0.2.0 — focused workflow update.** This version adds three refinements: follow the user's route from the ordinary entry point through completion and return; inherit project decisions with scoped exceptions; check affected screens when shared components or styles change. The core remains within its 702-word limit. See [evaluation](docs/evaluation.md) for the checks and their limits.
 
 The skill instructions are in Russian. The package is Markdown and YAML; it has no runtime dependencies and does not train the model.
 
@@ -44,7 +44,7 @@ Supply the actual brief and relevant artifacts. A build passing is not evidence 
 | [skills/zodchiy/agents/openai.yaml](skills/zodchiy/agents/openai.yaml) | Optional client display metadata |
 | [docs/installation.md](docs/installation.md) | Installation and portable use |
 | [docs/development.md](docs/development.md) | Package boundaries and maintenance |
-| [docs/evaluation.md](docs/evaluation.md) | What the baseline does and does not establish |
+| [docs/evaluation.md](docs/evaluation.md) | Checks, supporting artifacts, and limits of the evidence |
 | [scripts/validate.py](scripts/validate.py) | Local structure, link, and core-size checks |
 
 The core has a 702-word ceiling, measured as whitespace-separated words including frontmatter. Load supporting notes only when they fit the task. Public contributions must exclude personal cases and private artifacts, including disguised copies of them.

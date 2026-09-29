@@ -1,6 +1,6 @@
 # Разработка
 
-Базовая публичная версия — `v0.1.0`, 28 сентября 2026 года. Рабочие инструкции находятся в `skills/zodchiy`; документация сопровождения остаётся за пределами устанавливаемой папки.
+Текущая версия — `v0.2.0`, 29 сентября 2026 года; исходная публичная версия — `v0.1.0`. Рабочие инструкции находятся в `skills/zodchiy`; документация сопровождения и материалы проверки остаются за пределами устанавливаемой папки.
 
 | Файл | Назначение |
 |---|---|
@@ -32,3 +32,11 @@ python3 scripts/validate.py
 ```
 
 После этого прочитать diff, проверить соответствие метаданных инструкциям и доступность затронутых относительных ссылок. В описании изменения указать фактически выполненные проверки и их ограничения. Статический валидатор не оценивает удобство интерфейсов; статус доказательств описан в [evaluation.md](evaluation.md).
+
+## Основания уточнений 0.2.0
+
+Три изменения уточняют существующие правила. Полные внешние навыки и их зависимости не включаются в пакет.
+
+- Связь назначения поверхности, задачи и состояний: [Impeccable shape](https://github.com/pbakaus/impeccable/blob/114ea1d3838fca73b253af45f873b9c4f5f213c8/skill/reference/shape.md). Проверка обычного входа и возврата обобщает уже существующие правила «Зодчего» о чтении и принадлежности действия.
+- Наследование решений и ограниченная область исключений: [Interface Design](https://github.com/Dammyjay93/interface-design/blob/2f9be3206855bcb2d1d0af262c8bae25cba6658d/.claude/skills/interface-design/SKILL.md) и [Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/09170eec67eefd46a7ae85de61b40c194020f997/src/ui-ux-pro-max/scripts/design_system.py). Перенесён принцип; отдельный генератор или формат файлов не требуется.
+- Настоящий компонент, его потребители и граница регрессии: [Jakub break](https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills/break/SKILL.md), [interface-review](https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills/interface-review/SKILL.md) и [ibelick improve-ui](https://github.com/ibelick/ui-skills/blob/dc7ab3209341b2075c495983899b11f6d204e41b/skills/improve-ui/SKILL.md). Фиксированное число просмотров и замечаний не переносится.
