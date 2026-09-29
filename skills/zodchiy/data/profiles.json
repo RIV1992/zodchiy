@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "profile_version": "0.3.0",
+  "status": "authored working profiles; verify each implementation",
+  "themes": {
+    "open": {
+      "name": "Открытость",
+      "mode": "light",
+      "source_version": "Material Presence 0.2 r1",
+      "tokens": {
+        "canvas": "#F7F6EE",
+        "surface": "#FFFDF8",
+        "surfaceMuted": "#EEEDE2",
+        "ink": "#252822",
+        "inkMuted": "#5F6259",
+        "border": "#7D8074",
+        "subtleBorder": "#D5D7C8",
+        "accent": "#DDD83B",
+        "accentInk": "#252822",
+        "accentSoft": "#F1EFB8",
+        "focus": "#252822"
+      }
+    },
+    "clear": {
+      "name": "Ясность",
+      "mode": "light",
+      "source_version": "Material Presence 0.2 r1",
+      "tokens": {
+        "canvas": "#F2F5F7",
+        "surface": "#FFFFFF",
+        "surfaceMuted": "#E6EDF1",
+        "ink": "#202A32",
+        "inkMuted": "#55636F",
+        "border": "#778591",
+        "subtleBorder": "#CFD9E0",
+        "accent": "#3B63A3",
+        "accentInk": "#FFFFFF",
+        "accentSoft": "#DDE7F6",
+        "focus": "#202A32"
+      }
+    },
+    "warm": {
+      "name": "Тепло",
+      "mode": "light",
+      "source_version": "Material Presence 0.2 r1",
+      "tokens": {
+        "canvas": "#F8F3EB",
+        "surface": "#FFFCF7",
+        "surfaceMuted": "#EEE5D9",
+        "ink": "#322923",
+        "inkMuted": "#6E5C4E",
+        "border": "#917D6C",
+        "subtleBorder": "#DECEC0",
+        "accent": "#AF4936",
+        "accentInk": "#FFFFFF",
+        "accentSoft": "#F4DFD7",
+        "focus": "#322923"
+      }
+    },
+    "balanced": {
+      "name": "Равновесие",
+      "mode": "light",
+      "source_version": "Material Presence 0.2 r1",
+      "tokens": {
+        "canvas": "#F2F5ED",
+        "surface": "#FDFEF9",
+        "surfaceMuted": "#E4EBDF",
+        "ink": "#283126",
+        "inkMuted": "#596552",
+        "border": "#78856D",
+        "subtleBorder": "#CDD7C5",
+        "accent": "#4E6C49",
+        "accentInk": "#FFFFFF",
+        "accentSoft": "#DDE8D6",
+        "focus": "#283126"
+      }
+    },
+    "focused": {
+      "name": "Сосредоточенность",
+      "mode": "light",
+      "source_version": "Material Presence 0.2 r1",
+      "tokens": {
+        "canvas": "#F5F2F5",
+        "surface": "#FFFCFE",
+        "surfaceMuted": "#EAE3EA",
+        "ink": "#302831",
+        "inkMuted": "#695B6B",
+        "border": "#867789",
+        "subtleBorder": "#DACFDC",
+        "accent": "#79517D",
+        "accentInk": "#FFFFFF",
+        "accentSoft": "#E9DEEC",
+        "focus": "#302831"
+      }
+    }
+  },
+  "typography": {
+    "mp-noto": {
+      "source_version": "Material Presence 0.2 r1",
+      "referenceRootPx": 16,
+      "families": {
+        "sans": [
+          "Noto Sans",
+          "system-ui",
+          "sans-serif"
+        ],
+        "serif": [
+          "Noto Serif",
+          "Georgia",
+          "serif"
+        ]
+      },
+      "fluidViewportPx": {
+        "min": 320,
+        "max": 1440
+      },
+      "roles": {
+        "title": {
+          "minPx": 36,
+          "maxPx": 80,
+          "lineHeight": 1.02,
+          "weight": 700,
+          "letterSpacingEm": -0.035
+        },
+        "section": {
+          "minPx": 28,
+          "maxPx": 48,
+          "lineHeight": 1.1,
+          "weight": 700,
+          "letterSpacingEm": -0.02
+        },
+        "block": {
+          "sizePx": 22,
+          "lineHeight": 1.25,
+          "weight": 700
+        },
+        "body": {
+          "sizePx": 18,
+          "lineHeight": 1.55,
+          "weight": 400
+        },
+        "ui": {
+          "sizePx": 16,
+          "lineHeight": 1.4,
+          "weight": 400
+        },
+        "metadata": {
+          "sizePx": 14,
+          "lineHeight": 1.45,
+          "weight": 400
+        },
+        "quote": {
+          "minPx": 24,
+          "maxPx": 36,
+          "lineHeight": 1.3,
+          "weight": 400
+        }
+      }
+    },
+    "editorial-golos-literata": {
+      "source_version": "authored editorial family profile",
+      "families": {
+        "sans": [
+          "Golos Text",
+          "Noto Sans",
+          "system-ui",
+          "sans-serif"
+        ],
+        "serif": [
+          "Literata",
+          "Noto Serif",
+          "Georgia",
+          "serif"
+        ]
+      },
+      "scale_policy": "inherit the project; explicitly select mp-noto roles only when appropriate"
+    }
+  },
+  "semantics": {
+    "error": {
+      "foreground": "#9E352D",
+      "background": "#FCE9E5"
+    },
+    "success": {
+      "foreground": "#2B663E",
+      "background": "#E6F3E7"
+    },
+    "warning": {
+      "foreground": "#785112",
+      "background": "#FFF0CC"
+    },
+    "info": {
+      "foreground": "#285D86",
+      "background": "#E5F1FA"
+    }
+  },
+  "actions": {
+    "primaryBackground": "{ink}",
+    "primaryForeground": "{canvas}",
+    "secondaryBackground": "{surface}",
+    "secondaryForeground": "{ink}",
+    "secondaryBorder": "{border}",
+    "link": "{ink}",
+    "linkDecoration": "underline",
+    "selectedBackground": "{ink}",
+    "selectedForeground": "{canvas}"
+  },
+  "image_palettes": {
+    "air-print": {
+      "kind": "image-only",
+      "colors": {
+        "blue": "#19355B",
+        "terracotta": "#B65E3F",
+        "paper": "#F0EBDD"
+      },
+      "overprint": "optional darker overlap; not a UI state palette"
+    }
+  }
+}

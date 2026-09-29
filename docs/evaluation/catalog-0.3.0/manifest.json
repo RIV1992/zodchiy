@@ -1,0 +1,48 @@
+{
+  "draft_one_skill_sha256": {
+    "SKILL.md": "50630ac836e910679e5cbf311cecbbbf18a6e446cd1d8ce1f90c0f8a2ee2b0e5",
+    "agents/openai.yaml": "4354e67ab6e9cb1f2e68040b8d2e009c481abd2e0b010b698fa3c8da628db9c6",
+    "data/profiles.json": "e6ecfaec1ae941b5724a602f48b3253e7f6aeb24a4879a81a129d4881b1c7349",
+    "references/air-constructivism.md": "8f12cf3641054314cf6830368075ee63bb9821e6361366aed8663b75182b148f",
+    "references/catalog.md": "b7c17ce5e8979bbcdede34248edf768eb95229853716f70977874f6133f098f2",
+    "references/explanation.md": "ae51d9e82ed613bb7eae6034219e0b4cb76a77f3d6fa94925ae8bcb8c32ace87",
+    "references/learning.md": "a95317618bd670b6b05eac82807942a55765eccbed720af97afdf27db9a9cafc",
+    "references/material-presence.md": "6d2b6204e52a6c7ccf8c44c522a084aa9b316e98d788e298be32ecf9c09e2c70",
+    "references/presence-gouache.md": "d8a5f0f430178b4fd4bf28e7e5568dbd96dcdd0d03f529e6091a6afade136c20",
+    "references/reading.md": "28b50bcfc26634226e08a864d890fab832b7b8eee25d2b9e2056420cb60b63af",
+    "references/visual-direction.md": "4d5fc2ffa33b6e78024eb53cab6bd754b24a67fbcf03bc043f9886d42edae21a",
+    "references/workspaces.md": "a84a913ffc7c48034814c6c40b7f3318c4adc8a2bdca6e617fa35ec84041376c"
+  },
+  "final_skill_sha256": {
+    "SKILL.md": "3f93139052ea430e8afb5c1435c0b10ac17985f743aff1836ef9b996f93a84a5",
+    "agents/openai.yaml": "4354e67ab6e9cb1f2e68040b8d2e009c481abd2e0b010b698fa3c8da628db9c6",
+    "data/profiles.json": "e6ecfaec1ae941b5724a602f48b3253e7f6aeb24a4879a81a129d4881b1c7349",
+    "references/air-constructivism.md": "8f12cf3641054314cf6830368075ee63bb9821e6361366aed8663b75182b148f",
+    "references/catalog.md": "b7c17ce5e8979bbcdede34248edf768eb95229853716f70977874f6133f098f2",
+    "references/explanation.md": "ae51d9e82ed613bb7eae6034219e0b4cb76a77f3d6fa94925ae8bcb8c32ace87",
+    "references/learning.md": "a95317618bd670b6b05eac82807942a55765eccbed720af97afdf27db9a9cafc",
+    "references/material-presence.md": "2d11ac565ec759f2f8912efcc7e41d5f00415677833aec1c7bce107eb3afb43b",
+    "references/presence-gouache.md": "d8a5f0f430178b4fd4bf28e7e5568dbd96dcdd0d03f529e6091a6afade136c20",
+    "references/reading.md": "28b50bcfc26634226e08a864d890fab832b7b8eee25d2b9e2056420cb60b63af",
+    "references/visual-direction.md": "4d5fc2ffa33b6e78024eb53cab6bd754b24a67fbcf03bc043f9886d42edae21a",
+    "references/workspaces.md": "a84a913ffc7c48034814c6c40b7f3318c4adc8a2bdca6e617fa35ec84041376c"
+  },
+  "artifacts_sha256": {
+    "inputs/a/project-decisions.md": "5002fccfc59d3072645506c235243c9e50706c4dad78f878ae65fe3a66fd8039",
+    "inputs/a/tasks.md": "408455fe97c2af36363400c4bfdaf53e562d0961bc0e5379728355a0b5524f2e",
+    "inputs/b/index.html": "d67f091f61f54f718789c445612862d1f8f8e3a01254a0e87634a96fa7d642b2",
+    "inputs/b/project-decisions.md": "6fa1b1846281b87fb01d69c82b82a4c05102f3a156c7bea22d41421f6c0f026a",
+    "inputs/b/tasks.md": "3232670e714d4ca4bf31da512a586597962d2189160a3ad0d0e72c1ca99e6847",
+    "inputs/dark/task.md": "f8a405e21c9f4d1858b449d701b80c61c06451065a3de0c412f6821764a84b95",
+    "inputs/dark/theme.md": "89c4ef404ca99fb16d099fc3d5a905755f5fd07dbad5f8ac7db4fc113de5ecd2",
+    "inputs/edit/index.html": "05b9f59af307affdc810099d3a3d541a3ecf3890e908a3418273ebb6578df115",
+    "inputs/edit/task.md": "148132dafe1cfba03c94b2e9bcc65c1f60e1a6db17a9dbe1b8fc02e57b8189aa",
+    "results/a.md": "06966295897d56622875383f21b92461f67e2994b74adf6ca302e343ffa511ec",
+    "results/b-index.html": "d3b25eb608788e10e861edbeb411ea63e8bac35cdf61ed98c3c2047dce7f80a2",
+    "results/b.md": "4264c211ced523502c29c585e44f436b67d59078db7277cb4344a92144544610",
+    "results/dark.md": "b52f6a895ee4323ed072bd0a7343a15c39cd34b444b07fb05f7d73d3ea524f38",
+    "results/edit-index.html": "1bc645c1851b28f65d22eacc6a2ea2b3ef689cb2678436967ccf886ce651ccfd",
+    "results/edit.md": "d914537ed0166423b76ea1f75fec69fb3c25bd9e52ff58ba5eea670622f78fe1"
+  },
+  "normalization": "One absolute skill path in results/edit.md replaced with its repository-relative path; answer content otherwise preserved."
+}

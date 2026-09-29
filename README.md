@@ -10,9 +10,9 @@ The name is the Russian word for a master builder or architect. A companion to [
 
 ## Status
 
-**0.2.0 — focused workflow update.** This version adds three refinements: follow the user's route from the ordinary entry point through completion and return; inherit project decisions with scoped exceptions; check affected screens when shared components or styles change. The core remains within its 702-word limit. See [evaluation](docs/evaluation.md) for the checks and their limits.
+**0.3.0 — an authored catalog loaded on demand.** Three directions, a separate two-color image variant, five light Material Presence palettes, two typography profiles, and two editorial patterns. Task and existing project decisions come first; a local fix does not trigger style selection. The core stays within 702 words. See [evaluation](docs/evaluation.md) for checks and limits.
 
-The skill instructions are in Russian. The package is Markdown and YAML; it has no runtime dependencies and does not train the model.
+The skill instructions are in Russian. The package is Markdown, YAML, and JSON; it has no runtime dependencies and does not train the model.
 
 ## What it covers
 
@@ -24,7 +24,7 @@ The skill instructions are in Russian. The package is Markdown and YAML; it has 
 
 ## Install and use
 
-Copy the complete [`skills/zodchiy`](skills/zodchiy) directory to the skill location supported by your agent. Keep its `references/` directory alongside `SKILL.md`. See [installation](docs/installation.md).
+Copy the complete [`skills/zodchiy`](skills/zodchiy) directory to the skill location supported by your agent. Keep its `references/` and `data/` directories alongside `SKILL.md`. See [installation](docs/installation.md).
 
 For clients that support explicit skill invocation:
 
@@ -35,12 +35,24 @@ For clients that support explicit skill invocation:
 
 Supply the actual brief and relevant artifacts. A build passing is not evidence that the visual result has been accepted by a person.
 
+## Use the catalog
+
+```text
+Zodchiy, choose a direction from the catalog for this brief.
+Zodchiy, use Material Presence with the Warm palette; keep project fonts.
+Zodchiy, draft a photo-treatment brief for Presence / Style 04.
+Zodchiy, use First Page for the catalog and Chorus for supported conclusions.
+```
+
+The [catalog](skills/zodchiy/references/catalog.md) separates composition, image treatment, systems, and patterns. Gouache derives color from the source photo; the two-color print variant has its own palette. The original Style 04 visual anchor is not bundled, so exact reproduction is not promised. Numeric profiles remain working foundations that need verification in the target interface. Russian pattern names are «Первая полоса» and «Хор».
+
 ## Repository map
 
 | Path | Purpose |
 |---|---|
 | [skills/zodchiy/SKILL.md](skills/zodchiy/SKILL.md) | Compact core workflow and reference routing |
 | [skills/zodchiy/references](skills/zodchiy/references) | Workspaces, explanation, reading, visual direction, and learning |
+| [skills/zodchiy/data/profiles.json](skills/zodchiy/data/profiles.json) | Canonical palette, typography, and color-role profiles |
 | [skills/zodchiy/agents/openai.yaml](skills/zodchiy/agents/openai.yaml) | Optional client display metadata |
 | [docs/installation.md](docs/installation.md) | Installation and portable use |
 | [docs/development.md](docs/development.md) | Package boundaries and maintenance |
