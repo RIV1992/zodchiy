@@ -10,7 +10,9 @@ The name is the Russian word for a master builder or architect. A companion to [
 
 ## Status
 
-**0.3.0 — an authored catalog loaded on demand.** Three directions, a separate two-color image variant, five light Material Presence palettes, two typography profiles, and two editorial patterns. Task and existing project decisions come first; a local fix does not trigger style selection. The core stays within 702 words. See [evaluation](docs/evaluation.md) for checks and limits.
+**0.3.1 — visual instructions for locating a control in a photo or screenshot.** The guide now checks whether a reader can connect each step to a visible landmark and verify the expected response when it is known. [Comparison and examples](docs/evaluation/visual-instructions-2026-11/README.md).
+
+The catalog includes three directions, a separate two-color image variant, five light Material Presence palettes, two typography profiles, and two editorial patterns. Task and existing project decisions come first; a local fix does not trigger style selection. The core stays within 702 words. See [evaluation](docs/evaluation.md) for checks and limits.
 
 The skill instructions are in Russian. The package is Markdown, YAML, and JSON; it has no runtime dependencies and does not train the model.
 

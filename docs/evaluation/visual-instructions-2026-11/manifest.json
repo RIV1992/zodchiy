@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "7d09c65d3be8c1ff47affbbc274a34b32bf91b3a",
+  "candidate_version": "0.3.1",
+  "compared_runtime_files": {
+    "SKILL.md": {
+      "baseline_sha256": "3f93139052ea430e8afb5c1435c0b10ac17985f743aff1836ef9b996f93a84a5",
+      "candidate_sha256": "4290b594cb78ad0117ea6c1cacd669da519ff2506378ade9eadfcf68fd0e8a86"
+    },
+    "references/explanation.md": {
+      "baseline_sha256": "ae51d9e82ed613bb7eae6034219e0b4cb76a77f3d6fa94925ae8bcb8c32ace87",
+      "candidate_sha256": "0257e18d621fef05d5f32704795d85588e8d176376d3060d069cd6ae62ab0a87"
+    }
+  },
+  "evidence_sha256": {
+    "inputs/brief-control.md": "68f17cf2b89aed7503a2a2cd588f8db47cedc5768c300bfef91e6336234cd4e1",
+    "inputs/brief-panel.md": "d6badf9667a82bbcd1b883b1d36c6f7e89a9e5e0bff5061087646b5a9fd09b81",
+    "inputs/panel.png": "9ae435edd14b81dada2a82c03d347aa38aa860f0049e26e7938f9e7bba13fa80",
+    "inputs/panel.svg": "7cfc64dde6f2193939add73b23aa551cc9c2075fba6ffb2f6c4f7ffffe396dd9",
+    "outputs/candidate-control.svg": "0deef04fdecdd6573d82051fc4e07e629bdd6622bf96a34f4a95c1bdb09f8a2b",
+    "outputs/candidate-panel.svg": "4f2e29e5f18ab485da5e7a02647ad43975842e22c3f4a5b8f7a45d27b7a05248",
+    "outputs/published-control.svg": "2087c17f55b1706575037cf7b55fa4606707fd95e96e731031bca400ca4de53a",
+    "outputs/published-panel.svg": "f4c632e3214ccf95111e58f71994eb19db91d0a6b7f77e58d45a2ca2de559942",
+    "rubric.md": "19a99cdf49799c8baace89811a83007dc1ece9937fb2621cf77d087b19760cb6",
+    "transfer/brief.md": "19e905cd9c0677099cd9efa41a395d97b12123f77697ab9653bfc4caecb6bd48",
+    "transfer/candidate.svg": "0f2d33ee73dbc715cb4bbe1669a0d41698979269126887d9ce54f9fd3b301efe",
+    "transfer/published.svg": "34e68a50310f7dc4fa568abb3cf799c0dc4cb496ba1051b2087a2bfbac9a85f9",
+    "transfer/rubric.md": "67f729c2cad6d44420dc4c32d9c070003914a8d41d0d157405de1a7edf0ea323",
+    "transfer/source.svg": "9ace845e79a4eccedda450b7fdfd0e474e43f223d3f3925c03aace276e228fd8"
+  }
+}

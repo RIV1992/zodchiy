@@ -14,7 +14,7 @@ description: "Проектировать и улучшать UX, UI и худо�
 | Контекст | Материал |
 |---|---|
 | Рабочие поверхности | [workspaces.md](references/workspaces.md) |
-| Инсайты, объяснение продукта | [explanation.md](references/explanation.md) |
+| Инсайты, объяснения, фотоинструкции | [explanation.md](references/explanation.md) |
 | Профили и чтение | [reading.md](references/reading.md) |
 | Композиция и материал | [visual-direction.md](references/visual-direction.md) |
 | Внешние методики, GitHub, пополнение опыта, проверка навыка | [learning.md](references/learning.md) |

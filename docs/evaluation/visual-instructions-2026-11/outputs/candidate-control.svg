@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+<rect width="800" height="520" fill="#f6f3ec"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#273530">
+  <text x="52" y="73" font-size="34" font-weight="bold">Каталог обмена</text>
+  <text x="53" y="105" font-size="15" fill="#52635b">Печатные издания · 3 записи</text>
+  <rect x="48" y="146" width="704" height="96" rx="8" fill="#fffef9" stroke="#c9d0c6"/>
+  <text x="70" y="183" font-size="20" font-weight="bold">Речной указатель</text>
+  <text x="70" y="214" font-size="15" fill="#53665b">Зал 1 · Полка 7</text>
+  <text x="584" y="199" font-size="15" fill="#53665b">На руках</text>
+  <g id="book-middle">
+    <rect x="48" y="254" width="704" height="96" rx="8" fill="#fffef9" stroke="#c9d0c6"/>
+    <text x="70" y="291" font-size="20" font-weight="bold">Бумажные берега</text>
+    <text x="70" y="322" font-size="15" fill="#53665b">Зал 2 · Полка 4</text>
+    <circle cx="447" cy="302" r="4" fill="#4b7359"/>
+    <text x="460" y="307" font-size="15" fill="#374e40">Свободна</text>
+    <rect x="584" y="281" width="146" height="42" rx="7" fill="#304e3f"/>
+    <text x="657" y="308" text-anchor="middle" font-size="16" font-weight="bold" fill="#fffef9">Заказать</text>
+  </g>
+  <rect x="48" y="362" width="704" height="96" rx="8" fill="#fffef9" stroke="#c9d0c6"/>
+  <text x="70" y="399" font-size="20" font-weight="bold">Глина и дождь</text>
+  <text x="70" y="430" font-size="15" fill="#53665b">Зал 3 · Полка 2</text>
+  <text x="584" y="415" font-size="15" fill="#53665b">В обработке</text>
+</g>
+</svg>
