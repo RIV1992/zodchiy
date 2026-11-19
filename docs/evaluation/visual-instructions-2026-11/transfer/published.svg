@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="535" viewBox="0 0 768 535" role="img" aria-labelledby="title desc" lang="ru">
+<title id="title">«Берег» — выбор записи для финала</title>
+<desc id="desc">Прослушайте «Отлив» длительностью 00:08 и 00:13, нажав на волну каждой строки. Вчера список был отсортирован по времени добавления, сегодня по длительности. Уточните у Марины, какую длительность она выбрала. После ответа перетащите за точки слева только запись названной длительности в поле «Финал».</desc>
+<style>
+text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#163b3e}
+.step{font-size:21px;font-weight:700}
+.num{font-size:16px;font-weight:bold;fill:white;text-anchor:middle}
+.mono{font-family:"DejaVu Sans Mono",monospace;font-size:19px}
+.wave{fill:none;stroke:#197c73;stroke-width:3;stroke-linecap:round}
+</style>
+<defs>
+<g id="grip" fill="#647e80">
+<circle cx="0" cy="-7" r="2.1"/><circle cx="7" cy="-7" r="2.1"/>
+<circle cx="0" cy="0" r="2.1"/><circle cx="7" cy="0" r="2.1"/>
+<circle cx="0" cy="7" r="2.1"/><circle cx="7" cy="7" r="2.1"/>
+</g>
+</defs>
+<rect width="768" height="535" rx="12" fill="#fff"/>
+<path d="M0 12Q0 0 12 0H756Q768 0 768 12V72H0Z" fill="#173c40"/>
+<text x="27" y="46" style="font-size:30px;font-weight:bold;fill:white">«Берег» · запись для финала</text>
+<text x="740" y="42" text-anchor="end" style="font-size:15px;fill:#c5e0db">Отзвук / Фонотека</text>
+<circle cx="40" cy="108" r="14" fill="#197c73"/><text x="40" y="114" class="num">1</text>
+<text x="67" y="115" class="step">Нажмите на волну в каждой из двух строк</text>
+<rect x="26" y="132" width="716" height="150" rx="9" fill="#f3f6f4" stroke="#bdceca"/>
+<text x="42" y="156" font-size="16" font-weight="bold">Записи</text>
+<text x="726" y="155" font-size="14" text-anchor="end" style="fill:#426562">Сортировка по длительности ↑</text>
+<rect x="27" y="169" width="714" height="111" rx="7" fill="white"/>
+<path d="M27 169H741M27 225H741" stroke="#d6e1dc"/>
+<use xlink:href="#grip" x="47" y="197"/>
+<text x="78" y="204" font-weight="bold" font-size="21">Отлив</text>
+<g transform="translate(313 197) scale(.87)">
+<rect x="-18" y="-22" width="295" height="44" rx="8" fill="#e8f5f1" stroke="#197c73" stroke-width="2.5"/>
+<path d="M0 -10L15 0 0 10Z" fill="#197c73"/>
+<path class="wave" d="M32 -2v4m8 -6v8m8 -14v20m8 -24v28m8 -21v14m8 -12v10m8 -9v8m8 -17v26m8 -23v20m8 -16v12m8 -11v10m8 -12v14m8 -18v22m8 -19v16m8 -12v8m8 -10v12m8 -17v22m8 -14v6m8 -5v4m8 -5v6m8 -9v12m8 -11v10m8 -9v8m8 -7v6m8 -5v4m8 -4v4m8 -4v4m8 -3v2"/>
+</g>
+<text x="718" y="204" text-anchor="end" class="mono">00:08</text>
+<use xlink:href="#grip" x="47" y="252"/>
+<text x="78" y="259" font-weight="bold" font-size="21">Отлив</text>
+<g transform="translate(313 252) scale(.87)">
+<rect x="-18" y="-22" width="295" height="44" rx="8" fill="#e8f5f1" stroke="#197c73" stroke-width="2.5"/>
+<path d="M0 -10L15 0 0 10Z" fill="#197c73"/>
+<path class="wave" d="M32 -2v4m8 -5v6m8 -8v10m8 -12v14m8 -11v8m8 -5v2m8 -4v6m8 -10v14m8 -16v18m8 -24v30m8 -28v26m8 -22v18m8 -17v16m8 -11v6m8 -9v12m8 -18v24m8 -21v18m8 -12v6m8 -6v6m8 -11v16m8 -17v18m8 -14v10m8 -7v4m8 -5v6m8 -7v8m8 -7v6m8 -5v4m8 -3v2"/>
+</g>
+<text x="718" y="259" text-anchor="end" class="mono">00:13</text>
+<circle cx="40" cy="316" r="14" fill="#197c73"/><text x="40" y="322" class="num">2</text>
+<text x="67" y="323" class="step">Уточните выбор у Марины</text>
+<text x="67" y="351" font-size="16" style="fill:#456363">Вчера строки шли по времени добавления, сегодня — по длительности.</text>
+<path d="M68 367V389" stroke="#197c73" stroke-width="3"/>
+<text x="81" y="384" font-size="19" font-weight="bold">«Марина, для финала берём „Отлив“ на 00:08 или 00:13?»</text>
+<path d="M26 408H742" stroke="#cddbd6"/>
+<circle cx="40" cy="438" r="14" fill="#197c73"/><text x="40" y="444" class="num">3</text>
+<text x="67" y="445" class="step">После ответа потяните за точки слева</text>
+<rect x="67" y="463" width="390" height="47" rx="6" fill="#f3f6f4" stroke="#bdceca"/>
+<use xlink:href="#grip" x="84" y="486"/>
+<text x="109" y="493" font-size="16">Строка с названной длительностью</text>
+<path d="M468 486H545m-9 -8 9 8 -9 8" stroke="#197c73" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="560" y="463" width="182" height="47" rx="6" fill="#e9f1ee" stroke="#668681" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="651" y="493" text-anchor="middle" font-size="18" font-weight="bold">Финал</text>
+</svg>

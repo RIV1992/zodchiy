@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" width="860" height="460" role="img" aria-labelledby="title desc">
+  <title id="title">Фонотека «Отзвук» — подборка для финала</title>
+  <desc id="desc">Две записи «Отлив» отсортированы по возрастанию длительности. Верхняя длится 00:08, нижняя 00:13. У каждой есть захват слева, волна справа. Внизу пустая область «Финал».</desc>
+  <style>
+    text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#132d32}
+    .caption{font-size:15px;fill:#466164}
+    .name{font-size:24px;font-weight:bold}
+    .duration{font-size:20px;font-family:"DejaVu Sans Mono",monospace}
+    .wave{fill:none;stroke:#197c73;stroke-width:3;stroke-linecap:round}
+  </style>
+  <defs>
+    <g id="grip" fill="#647e80">
+      <circle cx="0" cy="-7" r="2.2"/><circle cx="7" cy="-7" r="2.2"/>
+      <circle cx="0" cy="0" r="2.2"/><circle cx="7" cy="0" r="2.2"/>
+      <circle cx="0" cy="7" r="2.2"/><circle cx="7" cy="7" r="2.2"/>
+    </g>
+  </defs>
+  <rect width="860" height="460" rx="14" fill="#f3f6f4"/>
+  <path d="M0 14Q0 0 14 0H846Q860 0 860 14V64H0Z" fill="#173c40"/>
+  <text x="32" y="41" font-size="24" font-weight="bold" style="fill:white">Отзвук</text>
+  <text x="170" y="40" font-size="17" style="fill:#d3e8e4">Фонотека / Берег</text>
+  <text x="32" y="110" font-size="27" font-weight="bold">Записи</text>
+  <text x="828" y="107" text-anchor="end" class="caption">Сортировка по длительности ↑</text>
+  <rect x="32" y="130" width="796" height="132" rx="10" fill="#fff" stroke="#bed0cb"/>
+  <path d="M32 196H828" stroke="#d4dfdb"/>
+  <use href="#grip" x="58" y="163"/><use href="#grip" x="58" y="229"/>
+  <text x="90" y="172" class="name">Отлив</text>
+  <text x="90" y="238" class="name">Отлив</text>
+  <g transform="translate(374 163)">
+    <rect x="-18" y="-22" width="295" height="44" rx="8" fill="#e8f5f1"/>
+    <path d="M0 -10 15 0 0 10Z" fill="#197c73"/>
+    <path class="wave" d="M32 -2v4m8 -6v8m8 -14v20m8 -24v28m8 -21v14m8 -12v10m8 -9v8m8 -17v26m8 -23v20m8 -16v12m8 -11v10m8 -12v14m8 -18v22m8 -19v16m8 -12v8m8 -10v12m8 -17v22m8 -14v6m8 -5v4m8 -5v6m8 -9v12m8 -11v10m8 -9v8m8 -7v6m8 -5v4m8 -4v4m8 -4v4m8 -3v2"/>
+  </g>
+  <g transform="translate(374 229)">
+    <rect x="-18" y="-22" width="295" height="44" rx="8" fill="#e8f5f1"/>
+    <path d="M0 -10 15 0 0 10Z" fill="#197c73"/>
+    <path class="wave" d="M32 -2v4m8 -5v6m8 -8v10m8 -12v14m8 -11v8m8 -5v2m8 -4v6m8 -10v14m8 -16v18m8 -24v30m8 -28v26m8 -22v18m8 -17v16m8 -11v6m8 -9v12m8 -18v24m8 -21v18m8 -12v6m8 -6v6m8 -11v16m8 -17v18m8 -14v10m8 -7v4m8 -5v6m8 -7v8m8 -7v6m8 -5v4m8 -3v2"/>
+  </g>
+  <text x="800" y="171" text-anchor="end" class="duration">00:08</text>
+  <text x="800" y="237" text-anchor="end" class="duration">00:13</text>
+  <text x="32" y="289" class="caption">Нажмите на волну, чтобы прослушать запись.</text>
+  <text x="32" y="340" font-size="24" font-weight="bold">Финал</text>
+  <rect x="32" y="354" width="796" height="78" rx="10" fill="#e9f1ee" stroke="#668681" stroke-dasharray="6 5"/>
+  <text x="430" y="399" text-anchor="middle" font-size="17">Перетащите сюда запись за точки слева</text>
+</svg>
